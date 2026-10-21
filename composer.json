@@ -1,0 +1,28 @@
+{
+    "name": "popov/datagrid-elastic-bundle",
+    "description": "Extension for ZfcDatagrid to support ElasticSearch",
+    "keywords": [],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Serhii Popov",
+            "email": "popow.serhii@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "~4.0|~5.0|~7.0|~8.0"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+          "Pov\\DatagridElasticBundle\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
