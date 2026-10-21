@@ -1,5 +1,5 @@
 {
-    "name": "popov/datagrid-elastic-bundle",
+    "name": "pov/datagrid-elastic-bundle",
     "description": "Extension for ZfcDatagrid to support ElasticSearch",
     "keywords": [],
     "type": "symfony-bundle",
